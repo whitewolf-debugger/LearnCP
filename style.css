@@ -3,12 +3,12 @@
 }
 
 #set-color {
+  animation:glitch;
   height: 100vh;
   width:100vw;
   background-color: #232323;
   font-family: "Courier";
   font-weight: bolder;
-  background-image: url(giphy.gif);
   background-repeat: repeat;
   background-attachment: fixed;
 }
