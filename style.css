@@ -1,16 +1,18 @@
-#sample-para {
-  font-family:Roboto Mono,monospace!important;
-  color:green;
-  font-weight: bolder;
+#heading {
+  color:pink;
 }
+
 #set-color {
   height: 100vh;
   width:100vw;
   background-color: #232323;
-  background-color: #232323;
-  color: white;
   font-family: "Courier";
+  font-weight: bolder;
   background-image: url(giphy.gif);
   background-repeat: repeat;
   background-attachment: fixed;
+}
+
+.list li{
+  color:green;
 }
