@@ -1,9 +1,13 @@
 #heading {
-  color:pink;
+  color: rgb(239 229 160 / 73%);
+  font-size: 50px;
+  text-shadow: -5px 0 magenta;
+  animation: noise-1 3s linear infinite alternate-reverse, glitch 5s 5.05s infinite;
 }
 
 #set-color {
-  animation: glitch;
+  animation-name: glitch;
+  animation-duration: 1s;
   height: 100vh;
   width:100vw;
   background-color: #232323;
@@ -14,6 +18,15 @@
   background-attachment: fixed;
 }
 
-.list li{
-  color:green;
+
+.list {
+  color:#3dc33d;
+  text-decoration: none;
+}
+.list a{
+  color:#3dc33d;
+  text-decoration: none;
+}
+.list a:hover{
+  color:orange;
 }
